@@ -9,6 +9,7 @@ jobs:
     environment: npm-update
     # 22.04's podman has issues with piping and causes tar errors
     runs-on: ubuntu-20.04
+    if: ${{ github.actor == 'jelly' }}
     steps:
       - name: test
         run: |
