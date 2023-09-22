@@ -1,0 +1,7 @@
+import './truncate.css';
+declare const _default: {
+  "truncate": "pf-v5-c-truncate",
+  "truncateEnd": "pf-v5-c-truncate__end",
+  "truncateStart": "pf-v5-c-truncate__start"
+};
+export default _default;
