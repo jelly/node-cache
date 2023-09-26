@@ -1,0 +1,16 @@
+import './accordion.css';
+export default {
+  "accordion": "pf-v5-c-accordion",
+  "accordionExpandableContent": "pf-v5-c-accordion__expandable-content",
+  "accordionExpandableContentBody": "pf-v5-c-accordion__expandable-content-body",
+  "accordionToggle": "pf-v5-c-accordion__toggle",
+  "accordionToggleIcon": "pf-v5-c-accordion__toggle-icon",
+  "accordionToggleText": "pf-v5-c-accordion__toggle-text",
+  "modifiers": {
+    "displayLg": "pf-m-display-lg",
+    "bordered": "pf-m-bordered",
+    "expanded": "pf-m-expanded",
+    "fixed": "pf-m-fixed"
+  },
+  "themeDark": "pf-v5-theme-dark"
+};
