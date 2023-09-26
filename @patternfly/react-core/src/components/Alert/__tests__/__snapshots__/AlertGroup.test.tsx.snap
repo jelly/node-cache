@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertGroup Alert Group renders without children 1`] = `
+<DocumentFragment>
+  <ul
+    class="pf-v5-c-alert-group"
+    role="list"
+  />
+</DocumentFragment>
+`;
