@@ -1,0 +1,35 @@
+{
+  "name": "just-left-pad",
+  "version": "3.2.0",
+  "description": "add characters to the left of a string such that its total length is n",
+  "type": "commonjs",
+  "main": "index.min.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": "https://github.com/angus-c/just",
+  "keywords": [
+    "pad",
+    "left",
+    "left-pad",
+    "string",
+    "no-dependencies",
+    "just"
+  ],
+  "author": "Angus Croll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angus-c/just/issues"
+  }
+}
